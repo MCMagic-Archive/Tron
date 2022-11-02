@@ -1,0 +1,13 @@
+name: Tron
+author: MCMagicDev
+version: 1.0-SNAPSHOT
+depend: [MCMagicCore]
+description: MCMagic Arcade Game
+main: us.mcmagic.tron.Tron
+commands:
+  hub:
+    description: Send you to the Arcade
+    permission: mcmagic.hub
+  startgame:
+    description: Start the game
+    permission: arcade.bypass
